@@ -82,8 +82,10 @@ while index < collection.length do
     else
         new[movie[:studio]] += movie[:worldwide_gross]
         
-      
-
+    end
+    index += 1
+end
+new
 end
 
 def movies_with_directors_set(source)
