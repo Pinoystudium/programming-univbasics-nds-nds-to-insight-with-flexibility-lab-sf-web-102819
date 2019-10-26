@@ -106,7 +106,7 @@ while index < source.length do
     director_info_hash = source[index]
     director_name = director_info_hash[:name]
     director_movies = director_info_hash[:movies]
-    nes << 
+    new << 
 
 
 end
