@@ -109,7 +109,6 @@ while index < source.length do
     new << movies_with_director_key(director_name, director_movies)
     index += 1
 end
-#new.first.values.map{|h| [h[:director_name], h[:directo_movies]]
 new
 end
 
