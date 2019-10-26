@@ -77,6 +77,7 @@ while index < collection.length do
     movie = collection[index]
     
     if !new[movie[:studio]]
+        new[movie[:studio]] = 
 
 end
 
