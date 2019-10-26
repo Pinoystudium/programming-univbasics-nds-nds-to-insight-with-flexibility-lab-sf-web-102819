@@ -74,7 +74,9 @@ def gross_per_studio(collection)
 new = {}
 index = 0
 while index < collection.length do
+    movie = collection[index]
     
+    if !new[movie[:studio]]
 
 end
 
