@@ -77,7 +77,12 @@ while index < collection.length do
     movie = collection[index]
     
     if !new[movie[:studio]]
-        new[movie[:studio]] = 
+        new[movie[:studio]] = movie[:worldwide_gross]
+        
+    else
+        new[movie[:studio]] += movie[:worldwide_gross]
+        
+      
 
 end
 
