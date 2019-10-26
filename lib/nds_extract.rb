@@ -106,11 +106,11 @@ while index < source.length do
     director_info_hash = source[index]
     director_name = director_info_hash[:name]
     director_movies = director_info_hash[:movies]
-    new << movies_with_director_key(director_name, directors_movies)
+    new << movies_with_director_key(director_name, director_movies)
     index += 1
 end
+#new.first.values.map{|h| [h[:director_name], h[:directo_movies]]
 new
-
 end
 
 # ----------------    End of Your Code Region --------------------
